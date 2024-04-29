@@ -285,10 +285,10 @@
 						<script src="https://acrobatservices.adobe.com/view-sdk/viewer.js"></script>
 						<script type="text/javascript">
 							document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
-								var adobeDCView = new AdobeDC.View({clientId: "67723426fc4243758f454414f66f12eb", divId: "adobe-dc-view1"});
+								var adobeDCView = new AdobeDC.View({clientId: "67723426fc4243758f454414f66f12eb", divId: "adobe-dc-viewmap1"});
 								adobeDCView.previewFile({
 									content:{location: {url: "https://raw.githubusercontent.com/rafavaldez/CentroDeSaludIlave.github.io/bab3be6dd19c0718574c15a71eaf749d164d611a/pdf/1%20PLANO.pdf"}},
-									metaData:{fileName: "Bodea Brochure.pdf"}
+									metaData:{fileName: "MapaIlave.pdf"}
 								}, {});
 							});
 
@@ -300,7 +300,7 @@
 								var adobeDCView = new AdobeDC.View({clientId: "67723426fc4243758f454414f66f12eb", divId: "adobe-dc-view2"});
 								adobeDCView.previewFile({
 									content:{location: {url: "https://raw.githubusercontent.com/rafavaldez/CentroDeSaludIlave.github.io/bab3be6dd19c0718574c15a71eaf749d164d611a/pdf/2_sPLANO.pdf"}},
-									metaData:{fileName: "Bodea Brochure.pdf"}
+									metaData:{fileName: "MapaGeneral-Barrios.pdf"}
 								}, {});
 							});
 
@@ -310,7 +310,17 @@
 								var adobeDCView = new AdobeDC.View({clientId: "67723426fc4243758f454414f66f12eb", divId: "adobe-dc-view3"});
 								adobeDCView.previewFile({
 									content:{location: {url: "https://raw.githubusercontent.com/rafavaldez/CentroDeSaludIlave.github.io/c0b40083bc52fa88ac0cf062883cee5c511796f9/pdf/3%20PLANO.pdf"}},
-									metaData:{fileName: "Bodea Brochure.pdf"}
+									metaData:{fileName: "MapaGeneral-Calles.pdf"}
+								}, {});
+							});
+
+
+
+							document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
+								var adobeDCView = new AdobeDC.View({clientId: "67723426fc4243758f454414f66f12eb", divId: "adobe-dc-view3"});
+								adobeDCView.previewFile({
+									content:{location: {url: "https://raw.githubusercontent.com/ilavecentrodesalud/CentroDeSaludIlave/3a2f477e407f1a7ec741d1bd9a8bfc970608c7fc/pdf/MAPA%2001.pdf"}},
+									metaData:{fileName: "MapaCalles-Mapa-1.pdf"}
 								}, {});
 							});
 
