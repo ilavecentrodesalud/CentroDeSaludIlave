@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ilavecentrodesalud.github.io/CentroDeSaludIlave/sitemap.xml
